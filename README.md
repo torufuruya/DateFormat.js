@@ -4,30 +4,26 @@ Extension of the Javascript Date object with a minimum function for shaping the 
 
 ## Installation
 
----
-
 install
 
-```
+```bash
 > git clone https://github.com/torufuruya/DateFormat.js.git
 ```
 
 and read in your HTML
 
-```
+```html
 <script type="text/javascript" src="dateformat.js"></script>
 ```
 
 then you can use Date.prototype.format function
 
-```
+```js
 var d = new Date();
-d.format('Y-m-d H:i:s');  //will get e.g. "2014-01-14"
+d.format('Y-m-d H:i:s');  //=> e.g. "2014-01-14 00:00:00"
 ```
 
 ## Usage
-
----
 
 ### Supported format type
 
@@ -43,18 +39,15 @@ d.format('Y-m-d H:i:s');  //will get e.g. "2014-01-14"
 
 ### Example
 
-```
+```js
 var d = new Date(1388599445000);
 
 d.format('Y-m-d H:i:s')  //=> "2014-01-02 03:04:05"
 
 d.format('n/j h:i')  //=> "1/2 3:04"
-
 ```
 
 ## License
-
----
 
 The MIT License (MIT)
 
