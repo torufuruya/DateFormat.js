@@ -19,12 +19,12 @@
  */
  (function(date) {
     var format = function(format) {
-        if (! format) throw new Error('format is not specified. e.g.) "Y-m-d H:i:s"');
+        if (! format) throw new Error('format is not specified. e.g. "Y-m-d H:i:s"');
 
         //prepare
         var year, month, date, hours, minutes, seconds;
         year = this.getFullYear();
-        month = this.getMonth();
+        month = this.getMonth() + 1;
         date = this.getDate();
         hours = this.getHours();
         minutes = this.getMinutes();
