@@ -17,7 +17,7 @@
  * Second
  *   s: Seconds, with leading zeros.
  */
- (function(date) {
+ (function() {
     var format = function(format) {
         if (! format) throw new Error('format is not specified. e.g. "Y-m-d H:i:s"');
 
@@ -38,7 +38,7 @@
             m: pad(month),
             j: date,
             d: pad(date),
-            h: hours,
+            h: hours > 12 ? pad(hours - 12) : pad(hours),
             H: pad(hours),
             i: pad(minutes),
             s: pad(seconds)

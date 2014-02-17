@@ -4,9 +4,9 @@ Extension of the Javascript Date object with a minimum function for shaping the 
 
 ## Installation
 
-install
+download
 
-```bash
+```sh
 > git clone https://github.com/torufuruya/DateFormat.js.git
 ```
 
@@ -47,8 +47,18 @@ d.format('Y-m-d H:i:s')  //=> "2014-01-02 03:04:05"
 d.format('n/j h:i')  //=> "1/2 3:04"
 ```
 
+## Test
+
+test with karma, mocha, and chai
+
+```sh
+> npm install -g karma
+> npm install
+> karma start
+```
+
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Toru Furuya
+Copyright (c) 2014 torufuruya
