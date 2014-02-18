@@ -7,7 +7,7 @@ Extension of the Javascript Date object with a minimum function for shaping the 
 download
 
 ```sh
-> git clone https://github.com/torufuruya/DateFormat.js.git
+$ git clone https://github.com/torufuruya/DateFormat.js.git
 ```
 
 and read in your HTML
@@ -52,9 +52,9 @@ d.format('n/j h:i')  //=> "1/2 3:04"
 test with karma, mocha, and chai
 
 ```sh
-> npm install -g karma
-> npm install
-> karma start
+$ npm install -g karma
+$ npm install
+$ karma start
 ```
 
 ## License
