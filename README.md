@@ -1,5 +1,7 @@
 # DateFormat.js
 
+[![Build Status](https://travis-ci.org/torufuruya/DateFormat.js.png?branch=master)](https://travis-ci.org/torufuruya/DateFormat.js)
+
 Extension of the Javascript Date object with a minimum function for shaping the date.
 
 ## Installation

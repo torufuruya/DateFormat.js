@@ -1,7 +1,7 @@
 var expect = chai.expect;
 
 describe('format', function() {
-    var d = new Date(1388671384000);  //2014-01-02 23:03:04
+    var d = new Date('2014-01-02 23:03:04');
 
     context('with "Y-m-d"', function() {
         it('should return "2014-01-02"', function() {
