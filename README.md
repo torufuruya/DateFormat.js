@@ -10,9 +10,9 @@ download
 $ git clone https://github.com/torufuruya/DateFormat.js.git
 ```
 
-OR you can also download by bower
+OR you can also download by using bower
 
-```
+```sh
 $ bower install dateformatjs
 ```
 
