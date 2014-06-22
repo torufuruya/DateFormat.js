@@ -10,6 +10,12 @@ download
 $ git clone https://github.com/torufuruya/DateFormat.js.git
 ```
 
+OR you can also download by bower
+
+```
+$ bower install dateformatjs
+```
+
 and read in your HTML
 
 ```html
